@@ -141,7 +141,7 @@
 > ### *humanity has ever built. Those who learn to wield it with purpose*
 > ### *won't just keep up with the future — they'll build it."*
 >
-> **— [YourName], AI Orchestrator & Student, Assam 🇮🇳**
+> **— San Sar, AI Orchestrator & Student, Assam 🇮🇳**
 
 </div>
 
