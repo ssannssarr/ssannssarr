@@ -5,13 +5,13 @@
 <div align="center">
 
 <!-- ── Animated Header ─────────────────────────────────────────── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=200&section=header&text=Hey,%20I'm%20[YourName]%20%F0%9F%A4%96&fontSize=40&fontColor=00FF88&animation=twinkling&fontAlignY=35&desc=AI%20Orchestrator%20%7C%20Student%20%7C%20Problem%20Solver&descAlignY=58&descSize=17&descColor=aaffcc" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=200&section=header&text=Hey,%20I'm%20San%20Sar%20%F0%9F%A4%96&fontSize=40&fontColor=00FF88&animation=twinkling&fontAlignY=35&desc=AI-Integrated%20Cyber%20Forensics%20%7C%20Student%20%7C%20AI%20Orchestrator&descAlignY=58&descSize=17&descColor=aaffcc" />
 
 <!-- ── Typing Animation ────────────────────────────────────────── -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&multiline=true&width=750&height=90&lines=🤖+AI+isn't+just+for+chatting+—+it's+for+solving+EVERYTHING;⚡+I+orchestrate+AI+to+build%2C+automate+%26+innovate;🌱+Student+from+Assam%2C+India+dreaming+at+scale+🚀)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&multiline=true&width=750&height=90&lines=🤖+AI+isn't+just+for+chatting+—+it's+for+solving+EVERYTHING;⚡+I+orchestrate+AI+for+Digital+Forensics+%26+Automation;🌱+11th+Grade+Student+dreaming+at+scale+🚀)](https://git.io/typing-svg)
 
 <!-- ── Badges ───────────────────────────────────────────────────── -->
-[![Profile Views](https://komarev.com/ghpvc/?username=yourusername&style=for-the-badge&color=00FF88&labelColor=0d0d0d&label=PROFILE+VIEWS)](https://github.com/ssannssarr)
+[![Profile Views](https://komarev.com/ghpvc/?username=ssannssarr&style=for-the-badge&color=00FF88&labelColor=0d0d0d&label=PROFILE+VIEWS)](https://github.com/ssannssarr)
 [![GitHub followers](https://img.shields.io/github/followers/ssannssarr?style=for-the-badge&color=00FF88&labelColor=0d0d0d&label=FOLLOWERS)](https://github.com/ssannssarr?tab=followers)
 
 </div>
@@ -21,65 +21,62 @@
 ## 🧠 Who Am I?
 
 ```text
-🎓  Student             →  Hekra, Goalpara, Assam, India 🇮🇳
-🤖  Specialty           →  AI Orchestration & Prompt Engineering
-💡  Superpower          →  Solving ANY problem using AI
-🛠️  How I work          →  I don't just use AI — I conduct it like an orchestra
+🎓  Student             →  11th Grade | Hekra, Goalpara, Assam, India 🇮🇳
+🤖  Specialty           →  AI-Integrated Cyber Forensics & Orchestration
+💡  Superpower          →  Automating Investigations using Applied AI
+🛠️  How I work          →  I conduct AI agents to solve complex cyber problems
 🎸  Off the screen      →  Playing guitar & doing cross stitch
-🌱  Currently exploring →  Multi-agent AI systems & automation pipelines
-⚡  Motto               →  "AI is a tool for solving real problems,
-                            not just a chatbot — wield it with purpose."
+🌱  Currently exploring →  AI-Powered Artifact Extraction & Threat Hunting
+⚡  Motto               →  "AI is a tool for truth and security,
+                            wield it with forensic precision."
 ```
 
 ---
 
-## 🤖 My AI Arsenal
+## 🤖 My Tech Stack
 
-> I don't just *use* AI tools — I **orchestrate** them to engineer solutions.
+> I orchestrate AI and security tools to engineer next-gen forensic solutions.
 
-**AI Platforms & Models I Work With:**
+**AI & Forensics Focus:**
 
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=00FF88)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-**What I Build With AI:**
-
 ![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=00FF88)
-![Markdown](https://img.shields.io/badge/Markdown-1a1a1a?style=for-the-badge&logo=markdown&logoColor=00FF88)
-![JSON](https://img.shields.io/badge/JSON-1a1a1a?style=for-the-badge&logo=json&logoColor=00FF88)
-![APIs](https://img.shields.io/badge/REST_APIs-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=00FF88)
-![Automation](https://img.shields.io/badge/Automation-1a1a1a?style=for-the-badge&logo=n8n&logoColor=00FF88)
+![Cyber Security](https://img.shields.io/badge/Cyber_Security-1a1a1a?style=for-the-badge&logo=hackthebox&logoColor=00FF88)
+![Digital Forensics](https://img.shields.io/badge/Digital_Forensics-1a1a1a?style=for-the-badge&logo=wireshark&logoColor=00FF88)
+
+**What I Build:**
+
+![Automation](https://img.shields.io/badge/AI_Automation-1a1a1a?style=for-the-badge&logo=n8n&logoColor=00FF88)
+![Log Analysis](https://img.shields.io/badge/Log_Analysis-1a1a1a?style=for-the-badge&logo=splunk&logoColor=00FF88)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-1a1a1a?style=for-the-badge&logo=openai&logoColor=00FF88)
 
 ---
 
-## ⚙️ My AI Workflow Philosophy
+## ⚙️ My Forensic AI Workflow
 
 ```
          ┌─────────────────────────────────────────────┐
-         │         THE AI ORCHESTRATION LOOP            │
+         │         THE INVESTIGATIVE AI LOOP           │
          └─────────────────────────────────────────────┘
 
-   🧩 DEFINE THE PROBLEM
+   🧩 EVIDENCE IDENTIFICATION
           │
           ▼
-   🤖 CHOOSE THE RIGHT AI TOOL(S)
+   🤖 AI-POWERED ARTIFACT PARSING
           │
           ▼
-   🔗 CHAIN / ORCHESTRATE MULTIPLE AGENTS
+   🔗 AGENTIC THREAT RECONSTRUCTION
           │
           ▼
-   🛠️ ITERATE WITH SMART PROMPTS
+   🛠️ AUTOMATED REPORT GENERATION
           │
           ▼
-   ✅ SHIP THE SOLUTION
+   ✅ ACTIONABLE INSIGHTS
 
   ──────────────────────────────────────────────────────
-  💬 "The best engineers don't just write code —
-       they know WHICH intelligence to invoke and WHEN."
+  💬 "In forensics, AI doesn't just find data — 
+       it reveals the narrative hidden in the noise."
   ──────────────────────────────────────────────────────
 ```
 
@@ -113,8 +110,8 @@
 ```text
   🎸  Guitar          →  Strumming chords when the code won't compile
   🧵  Cross Stitch    →  Pixel art with a needle — patience as a practice
+  🔍  Forensics       →  Uncovering digital truths, one byte at a time
   🤖  AI Tinkering    →  Automating the boring stuff so I can do the fun stuff
-  🌏  Dream           →  Build AI tools that solve real problems for real people
   📍  Home            →  Hekra, Goalpara, Assam — a small town, big ambitions
 ```
 
@@ -138,10 +135,10 @@
 <div align="center">
 
 > ### *"AI is not just a chatbot — it's the most powerful problem-solving tool*
-> ### *humanity has ever built. Those who learn to wield it with purpose*
-> ### *won't just keep up with the future — they'll build it."*
+> ### *humanity has ever built. Those who learn to wield it for security*
+> ### *won't just keep up with the future — they'll protect it."*
 >
-> **— San Sar, AI Orchestrator & Student, Assam 🇮🇳**
+> **— San Sar, AI Forensic Aspirant & Student, Assam 🇮🇳**
 
 </div>
 
