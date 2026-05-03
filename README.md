@@ -123,7 +123,7 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-1a1a1a?style=for-the-badge&logo=instagram&logoColor=00FF88)](https://instagram.com/ssannssarrrr)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=00FF88)](https://www.linkedin.com/in/santanu-sarkar-385459404?utm_source=share_via&utm_content=profile&utm_medium=member_android) 
-[![Threads](https://img.shields.io/badge/Threads-1a1a1a?style=for-the-badge&logo=threads&logoColor=00FF88)](https://threads.net/@ssannssarr)
+[![Threads](https://img.shields.io/badge/Threads-1a1a1a?style=for-the-badge&logo=threads&logoColor=00FF88)](https://threads.net/@ssannssarrrr)
 [![Discord](https://img.shields.io/badge/Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=00FF88)](https://discord.com/users/ssannssarr)
 
 </div>
