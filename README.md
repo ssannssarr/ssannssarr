@@ -19,7 +19,6 @@
 Hi my name is San Sar *(Santanu Sarkar)*.  
 A student of 11th grade entering tech world.    
 
-
 ---
 
 ## About Me 
@@ -62,10 +61,11 @@ A student of 11th grade entering tech world.
 [![Threads](https://img.shields.io/badge/Threads-1a1a1a?style=for-the-badge&logo=threads&logoColor=00FF88)](https://threads.net/@ssannssarrrr)
 [![Discord](https://img.shields.io/badge/Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=00FF88)](https://discord.com/users/ssannssarr)
 
-
+[![Instagram](https://img.shields.io/badge/Instagram-1a1a1a?style=for-the-badge&logo=instagram&logoColor=00FF88)](https://instagram.com/ssannssarrrr)
 
 ---
-<!---------snake ymal-------------------------->
+
+-----------snake ymal-------------------------->
 
 <div align="center">
   <picture>
