@@ -65,7 +65,7 @@ A student of 11th grade entering tech world.
 
 ---
 
------------snake ymal-------------------------->
+<!-----------snake ymal-------------------------->
 
 <div align="center">
   <picture>
