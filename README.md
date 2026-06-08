@@ -40,7 +40,7 @@ A student of 11th grade entering tech world.
 ## The tools I use :
 - Python
 - Git & Github
-- VS Code 
+- Sublime Text 4 
 - Termux
 - ChatGPT
 - Claud 
