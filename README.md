@@ -58,10 +58,10 @@ A student of 11th grade entering tech world.
 
 
 ## LINKS
-[![Threads](https://img.shields.io/badge/Threads-1a1a1a?style=for-the-badge&logo=threads&logoColor=00FF88)](https://threads.net/@ssannssarrrr)
+[![Threads](https://img.shields.io/badge/Threads-1a1a1a?style=for-the-badge&logo=threads&logoColor=00FF88)](https://threads.net/@ssannssarrai)
 [![Discord](https://img.shields.io/badge/Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=00FF88)](https://discord.com/users/ssannssarr)
 
-[![Instagram](https://img.shields.io/badge/Instagram-1a1a1a?style=for-the-badge&logo=instagram&logoColor=00FF88)](https://instagram.com/ssannssarrrr)
+[![Instagram](https://img.shields.io/badge/Instagram-1a1a1a?style=for-the-badge&logo=instagram&logoColor=00FF88)](https://instagram.com/ssannssarrai)
 
 ---
 
