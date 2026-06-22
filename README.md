@@ -42,9 +42,6 @@ A student of 11th grade entering tech world.
 - Git & Github
 - Sublime Text 4 
 - Termux
-- ChatGPT
-- Claud 
-- Deepseek
 
 ---
 
