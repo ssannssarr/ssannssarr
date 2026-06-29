@@ -38,10 +38,12 @@ A student of 11th grade entering tech world.
 ---
 
 ## The tools I use :
-- Python
-- Git & Github
-- Sublime Text 4 
-- Termux
+[![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=00FF88)](https://www.python.org/)
+[![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=00FF88)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-1a1a1a?style=for-the-badge&logo=github&logoColor=00FF88)](https://github.com/)
+[![Sublime Text](https://img.shields.io/badge/Sublime%20Text-1a1a1a?style=for-the-badge&logo=sublime-text&logoColor=00FF88)](https://www.sublimetext.com/)
+[![Termux](https://img.shields.io/badge/Termux-1a1a1a?style=for-the-badge&logo=termux&logoColor=00FF88)](https://termux.com/)
+[![Git Bash](https://img.shields.io/badge/Git%20Bash-1a1a1a?style=for-the-badge&logo=git&logoColor=00FF88)](https://git-scm.com/)
 
 ---
 
