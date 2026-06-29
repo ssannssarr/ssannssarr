@@ -7,15 +7,22 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
@@ -30,5 +37,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_files: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

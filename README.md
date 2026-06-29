@@ -62,7 +62,7 @@ A student of 11th grade entering tech world.
 
 ---
 
-<!-----------snake ymal-------------------------->
+<!-----------snake yaml-------------------------->
 
 <div align="center">
   <picture>
