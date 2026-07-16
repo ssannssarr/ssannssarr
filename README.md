@@ -107,6 +107,8 @@ class Sann:
 ## 📫 Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/ssannssarr)
+[![Instagram](https://img.shields.io/badge/instagram-181717?style=for-the-badge&logo=instagram)](https://www.instagram.com/ssannssarrai)
+[![Threads](https://img.shields.io/badge/threads-181717?style=for-the-badge&logo=threads)](https://www.threads.com/@ssannssarrai)
 
 ---
 
