@@ -57,11 +57,11 @@ class Sann:
 
 ### AI
 
-![OpenAI](https://img.shields.io/badge/OpenAI-black?style=for-the-badge&logo=openai)
-![Anthropic](https://img.shields.io/badge/Claude-black?style=for-the-badge)
-![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google)
-![Ollama](https://img.shields.io/badge/Ollama-black?style=for-the-badge)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-purple?style=for-the-badge)
+[![OpenAI](https://img.shields.io/badge/OpenAI-black?style=for-the-badge&logo=openai)](https://openai.com)
+[![deepseek](https://img.shields.io/badge/deepseek-black?style=for-the-badge&logo=deepseek)](https://chat.deepseek.com)
+[![Google Gemini](https://img.shields.io/badge/Gemini-black?style=for-the-badge&logo=google)](https://gemini/google.com)
+[![Ollama](https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama)](https://ollama.com)
+[![OpenRouter](https://img.shields.io/badge/OpenRouter-grey?style=for-the-badge&logo=openrouter)](https://openrouter.ai)
 
 ---
 
@@ -91,15 +91,7 @@ class Sann:
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=ssannssarr&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -107,19 +99,14 @@ class Sann:
 
 ## 📈 Activity Graph
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night)](https://github.com/YOUR_USERNAME)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ssannssarr&theme=tokyo-night)](https://github.com/ssannssarr)
 
 ---
 
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&margin-w=15)
-
----
 
 ## 📫 Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/ssannssarr)
 
 ---
 
