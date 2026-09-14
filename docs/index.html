@@ -22,11 +22,23 @@
     </div>
 
     <header class="nav">
-        <a href="#" class="logo">SS</a>
 
-        <nav class="nav-links">
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
             <a href="#about">About</a>
             <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#currently">Currently</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </nav>
 
@@ -38,12 +50,12 @@
         >
             GitHub ↗
         </a>
+
     </header>
 
 
     <main>
 
-        <!-- HERO -->
         <section class="hero">
 
             <div class="hero-content">
@@ -54,10 +66,13 @@
                         alt="SANTANU SARKAR GitHub avatar"
                         class="avatar"
                     >
+
                     <span class="status-dot"></span>
                 </div>
 
-                <p class="eyebrow">CSE STUDENT · CIT KOKRAJHAR</p>
+                <p class="eyebrow">
+                    CSE STUDENT · CIT KOKRAJHAR
+                </p>
 
                 <h1>
                     SANTANU
@@ -77,6 +92,7 @@
                 </p>
 
                 <div class="hero-actions">
+
                     <a
                         href="https://github.com/ssannssarr"
                         target="_blank"
@@ -89,6 +105,7 @@
                     <a href="#work" class="button button-secondary">
                         See my work ↓
                     </a>
+
                 </div>
 
             </div>
@@ -96,7 +113,6 @@
         </section>
 
 
-        <!-- ABOUT -->
         <section id="about" class="section">
 
             <div class="section-heading">
@@ -114,6 +130,7 @@
                 </div>
 
                 <div class="about-text">
+
                     <p>
                         I'm a first-semester Diploma CSE student at
                         CIT Kokrajhar, interested in software engineering
@@ -132,6 +149,7 @@
                         engineering while exploring AI systems and
                         machine learning.
                     </p>
+
                 </div>
 
             </div>
@@ -139,7 +157,6 @@
         </section>
 
 
-        <!-- PROJECTS -->
         <section id="work" class="section">
 
             <div class="section-heading">
@@ -152,13 +169,14 @@
             </p>
 
 
-            <!-- PROJECT 1 -->
             <article class="project-card featured">
 
                 <div class="project-top">
 
                     <div>
-                        <span class="project-label">01 · WEB / PWA</span>
+                        <span class="project-label">
+                            01 · WEB / PWA
+                        </span>
 
                         <h3>CITK Notes</h3>
                     </div>
@@ -177,6 +195,7 @@
 
                     <div>
                         <span>Problem</span>
+
                         <p>
                             Students often depend on class notes and
                             miss material when they aren't able to attend.
@@ -185,6 +204,7 @@
 
                     <div>
                         <span>Built</span>
+
                         <p>
                             A documentation-style web app with an
                             installable PWA experience.
@@ -193,6 +213,7 @@
 
                     <div>
                         <span>Stack</span>
+
                         <p>
                             MkDocs · Markdown · CSS · JavaScript ·
                             GitHub Pages
@@ -204,12 +225,13 @@
                 <div class="project-footer">
 
                     <div class="tags">
-                        <span> PWA </span>
-                        <span> MkDocs </span>
-                        <span> GitHub Pages </span>
+                        <span>PWA</span>
+                        <span>MkDocs</span>
+                        <span>GitHub Pages</span>
                     </div>
 
                     <div class="project-links">
+
                         <a
                             href="https://ssannssarr.github.io/notes/"
                             target="_blank"
@@ -225,6 +247,7 @@
                         >
                             GitHub ↗
                         </a>
+
                     </div>
 
                 </div>
@@ -232,13 +255,14 @@
             </article>
 
 
-            <!-- PROJECT 2 -->
             <article class="project-card">
 
                 <div class="project-top">
 
                     <div>
-                        <span class="project-label">02 · PROJECT</span>
+                        <span class="project-label">
+                            02 · PROJECT
+                        </span>
 
                         <h3>Project Two</h3>
                     </div>
@@ -248,8 +272,8 @@
                 </div>
 
                 <p class="project-description">
-                    Replace this with the second project after we
-                    finalize your portfolio shortlist.
+                    Replace this with the second project after
+                    finalizing the portfolio shortlist.
                 </p>
 
                 <div class="project-footer">
@@ -260,7 +284,9 @@
                     </div>
 
                     <div class="project-links">
-                        <a href="#" class="disabled">GitHub ↗</a>
+                        <a href="#" class="disabled">
+                            GitHub ↗
+                        </a>
                     </div>
 
                 </div>
@@ -268,13 +294,14 @@
             </article>
 
 
-            <!-- PROJECT 3 -->
             <article class="project-card">
 
                 <div class="project-top">
 
                     <div>
-                        <span class="project-label">03 · PROJECT</span>
+                        <span class="project-label">
+                            03 · PROJECT
+                        </span>
 
                         <h3>Project Three</h3>
                     </div>
@@ -284,8 +311,8 @@
                 </div>
 
                 <p class="project-description">
-                    Replace this with the third project after we
-                    finalize your portfolio shortlist.
+                    Replace this with the third project after
+                    finalizing the portfolio shortlist.
                 </p>
 
                 <div class="project-footer">
@@ -296,7 +323,9 @@
                     </div>
 
                     <div class="project-links">
-                        <a href="#" class="disabled">GitHub ↗</a>
+                        <a href="#" class="disabled">
+                            GitHub ↗
+                        </a>
                     </div>
 
                 </div>
@@ -306,8 +335,7 @@
         </section>
 
 
-        <!-- SKILLS -->
-        <section class="section">
+        <section id="skills" class="section">
 
             <div class="section-heading">
                 <span class="section-number">03</span>
@@ -317,7 +345,10 @@
             <div class="skills">
 
                 <div class="skill-group">
-                    <span class="skill-label">Languages</span>
+
+                    <span class="skill-label">
+                        Languages
+                    </span>
 
                     <div class="skill-list">
                         <span>Python</span>
@@ -325,10 +356,14 @@
                         <span>HTML</span>
                         <span>CSS</span>
                     </div>
+
                 </div>
 
                 <div class="skill-group">
-                    <span class="skill-label">Tools</span>
+
+                    <span class="skill-label">
+                        Tools
+                    </span>
 
                     <div class="skill-list">
                         <span>Git</span>
@@ -336,10 +371,14 @@
                         <span>Linux</span>
                         <span>Termux</span>
                     </div>
+
                 </div>
 
                 <div class="skill-group">
-                    <span class="skill-label">Exploring</span>
+
+                    <span class="skill-label">
+                        Exploring
+                    </span>
 
                     <div class="skill-list">
                         <span>AI / ML</span>
@@ -347,6 +386,7 @@
                         <span>Web Development</span>
                         <span>APIs</span>
                     </div>
+
                 </div>
 
             </div>
@@ -354,8 +394,7 @@
         </section>
 
 
-        <!-- CURRENTLY -->
-        <section class="section currently-section">
+        <section id="currently" class="section currently-section">
 
             <div class="section-heading">
                 <span class="section-number">04</span>
@@ -365,21 +404,22 @@
             <div class="currently">
 
                 <div class="currently-main">
+
                     <span class="pulse"></span>
+
                     <p>
                         Learning, building, breaking things,
                         and rebuilding them.
                     </p>
+
                 </div>
 
                 <div class="currently-list">
-
                     <span>Software Engineering</span>
                     <span>AI / ML</span>
                     <span>LLM Systems</span>
                     <span>Web Development</span>
                     <span>Developer Tools</span>
-
                 </div>
 
             </div>
@@ -387,8 +427,7 @@
         </section>
 
 
-        <!-- EDUCATION -->
-        <section class="section education-section">
+        <section id="education" class="section education-section">
 
             <div class="section-heading">
                 <span class="section-number">05</span>
@@ -398,7 +437,10 @@
             <div class="education-card">
 
                 <div>
-                    <span class="education-label">2026 — Present</span>
+
+                    <span class="education-label">
+                        2026 — Present
+                    </span>
 
                     <h3>
                         Diploma in Computer Science &
@@ -408,6 +450,7 @@
                     <p>
                         Central Institute of Technology Kokrajhar
                     </p>
+
                 </div>
 
                 <span class="education-location">
@@ -419,10 +462,11 @@
         </section>
 
 
-        <!-- CONTACT -->
         <section id="contact" class="contact">
 
-            <p class="eyebrow">06 · CONTACT</p>
+            <p class="eyebrow">
+                06 · CONTACT
+            </p>
 
             <h2>
                 Let's build
@@ -430,7 +474,7 @@
             </h2>
 
             <p>
-                I'm always interested in interesting problems,
+                I'm interested in interesting problems,
                 software, and things worth building.
             </p>
 
@@ -461,9 +505,13 @@
 
     <footer class="footer">
 
-        <span>© <span id="year"></span> SANTANU SARKAR</span>
+        <span>
+            © <span id="year"></span> SANTANU SARKAR
+        </span>
 
-        <span>CSE Student exploring the SWE world.</span>
+        <span>
+            CSE Student exploring the SWE world.
+        </span>
 
     </footer>
 

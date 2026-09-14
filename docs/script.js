@@ -10,6 +10,53 @@ if (year) {
 
 
 // =========================================
+// MENU
+// =========================================
+
+const menuButton = document.getElementById("menuButton");
+const navLinks = document.getElementById("navLinks");
+
+if (menuButton && navLinks) {
+
+    menuButton.addEventListener("click", () => {
+
+        const isOpen =
+            navLinks.classList.toggle("open");
+
+        menuButton.classList.toggle(
+            "open",
+            isOpen
+        );
+
+        menuButton.setAttribute(
+            "aria-expanded",
+            String(isOpen)
+        );
+
+    });
+
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+
+        link.addEventListener("click", () => {
+
+            navLinks.classList.remove("open");
+
+            menuButton.classList.remove("open");
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+        });
+
+    });
+
+}
+
+
+// =========================================
 // SCROLL REVEAL
 // =========================================
 
@@ -17,8 +64,9 @@ const revealElements = document.querySelectorAll(
     ".section, .project-card, .contact"
 );
 
-const observer = new IntersectionObserver(
+const revealObserver = new IntersectionObserver(
     (entries, observer) => {
+
         entries.forEach((entry) => {
 
             if (!entry.isIntersecting) {
@@ -28,7 +76,9 @@ const observer = new IntersectionObserver(
             entry.target.classList.add("visible");
 
             observer.unobserve(entry.target);
+
         });
+
     },
     {
         threshold: 0.08
@@ -36,7 +86,7 @@ const observer = new IntersectionObserver(
 );
 
 revealElements.forEach((element) => {
-    observer.observe(element);
+    revealObserver.observe(element);
 });
 
 
@@ -48,11 +98,11 @@ const sections = document.querySelectorAll(
     "section[id]"
 );
 
-const navLinks = document.querySelectorAll(
+const sectionLinks = document.querySelectorAll(
     ".nav-links a"
 );
 
-const sectionObserver = new IntersectionObserver(
+const activeObserver = new IntersectionObserver(
     (entries) => {
 
         entries.forEach((entry) => {
@@ -61,11 +111,13 @@ const sectionObserver = new IntersectionObserver(
                 return;
             }
 
-            const id = entry.target.getAttribute("id");
+            const id =
+                entry.target.getAttribute("id");
 
-            navLinks.forEach((link) => {
+            sectionLinks.forEach((link) => {
 
-                const href = link.getAttribute("href");
+                const href =
+                    link.getAttribute("href");
 
                 link.classList.toggle(
                     "active",
@@ -83,5 +135,5 @@ const sectionObserver = new IntersectionObserver(
 );
 
 sections.forEach((section) => {
-    sectionObserver.observe(section);
+    activeObserver.observe(section);
 });

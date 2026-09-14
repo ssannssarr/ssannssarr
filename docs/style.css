@@ -28,7 +28,6 @@ body {
         sans-serif;
 
     line-height: 1.6;
-
     overflow-x: hidden;
 }
 
@@ -54,7 +53,6 @@ a {
     z-index: -2;
 
     overflow: hidden;
-
     pointer-events: none;
 
     background:
@@ -85,23 +83,19 @@ a {
     height: 420px;
 
     border-radius: 50%;
-
     filter: blur(100px);
-
     opacity: 0.08;
 }
 
 .orb-one {
     top: -180px;
     left: -150px;
-
     background: white;
 }
 
 .orb-two {
     right: -180px;
     top: 45%;
-
     background: #a855f7;
 }
 
@@ -113,24 +107,20 @@ a {
 .nav {
     position: sticky;
     top: 16px;
-
     z-index: 100;
 
     width: min(1100px, calc(100% - 32px));
 
     margin: 16px auto 0;
-
-    padding: 10px 12px 10px 18px;
+    padding: 10px 12px;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
 
     background: rgba(20, 20, 20, 0.58);
 
     border: 1px solid rgba(255, 255, 255, 0.09);
-
     border-radius: 16px;
 
     backdrop-filter: blur(18px);
@@ -140,47 +130,99 @@ a {
         0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
-.logo {
-    width: 34px;
-    height: 34px;
 
-    display: grid;
-    place-items: center;
+/* MENU BUTTON */
 
-    border-radius: 10px;
+.menu-button {
+    width: 38px;
+    height: 38px;
 
-    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 5px;
 
-    font-size: 12px;
-    font-weight: 700;
+    flex-shrink: 0;
 
-    letter-spacing: -0.03em;
+    border: 0;
+    border-radius: 11px;
+
+    background: rgba(255, 255, 255, 0.07);
+
+    cursor: pointer;
+
+    transition:
+        background 180ms ease,
+        transform 180ms ease;
 }
+
+.menu-button:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-1px);
+}
+
+.menu-button span {
+    width: 15px;
+    height: 1px;
+
+    background: #ddd;
+
+    transition:
+        transform 180ms ease,
+        opacity 180ms ease;
+}
+
+.menu-button.open span:first-child {
+    transform: translateY(3px) rotate(45deg);
+}
+
+.menu-button.open span:last-child {
+    transform: translateY(-3px) rotate(-45deg);
+}
+
+
+/* NAV LINKS */
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 26px;
+    gap: 22px;
 
-    margin-left: auto;
+    max-width: 0;
+
+    overflow: hidden;
+    opacity: 0;
+
+    transition:
+        max-width 300ms ease,
+        opacity 200ms ease;
+}
+
+.nav-links.open {
+    max-width: 600px;
+    padding-left: 6px;
+    opacity: 1;
 }
 
 .nav-links a {
-    color: #888;
+    color: #777;
 
-    font-size: 13px;
+    font-size: 12px;
+    white-space: nowrap;
 
-    transition:
-        color 180ms ease;
+    transition: color 180ms ease;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
     color: white;
 }
 
 .nav-github {
+    margin-left: auto;
+
     padding: 8px 13px;
 
     border-radius: 10px;
@@ -198,7 +240,6 @@ a {
 
 .nav-github:hover {
     background: rgba(255, 255, 255, 0.13);
-
     transform: translateY(-1px);
 }
 
@@ -209,7 +250,6 @@ a {
 
 main {
     width: min(100%, 1100px);
-
     margin: auto;
 }
 
@@ -227,19 +267,15 @@ main {
 
 .section-number {
     color: #666;
-
     font-family: monospace;
-
     font-size: 12px;
 }
 
 .section-heading h2 {
     font-size: 15px;
-
     font-weight: 500;
 
     text-transform: uppercase;
-
     letter-spacing: 0.12em;
 }
 
@@ -250,7 +286,6 @@ main {
     margin-bottom: 35px;
 
     color: #777;
-
     font-size: 15px;
 }
 
@@ -307,7 +342,6 @@ main {
     border-radius: 50%;
 
     background: #8bff9b;
-
     border: 3px solid #080808;
 }
 
@@ -317,7 +351,6 @@ main {
     color: #777;
 
     font-family: monospace;
-
     font-size: 11px;
 
     letter-spacing: 0.14em;
@@ -329,7 +362,6 @@ main {
     font-size: clamp(48px, 9vw, 92px);
 
     line-height: 0.92;
-
     letter-spacing: -0.07em;
 
     font-weight: 650;
@@ -337,7 +369,6 @@ main {
 
 .hero h1 span {
     display: block;
-
     color: #777;
 }
 
@@ -347,7 +378,6 @@ main {
     font-size: clamp(22px, 3vw, 31px);
 
     line-height: 1.2;
-
     letter-spacing: -0.03em;
 
     color: #d8d8d8;
@@ -363,14 +393,12 @@ main {
     margin-bottom: 34px;
 
     color: #888;
-
     font-size: 16px;
 }
 
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
-
     gap: 10px;
 }
 
@@ -383,8 +411,7 @@ main {
 
     transition:
         transform 180ms ease,
-        background 180ms ease,
-        border-color 180ms ease;
+        background 180ms ease;
 }
 
 .button:hover {
@@ -395,7 +422,6 @@ main {
     color: #090909;
 
     background: white;
-
     border: 1px solid white;
 }
 
@@ -409,7 +435,6 @@ main {
 
 .button-secondary:hover {
     color: white;
-
     background: rgba(255, 255, 255, 0.08);
 }
 
@@ -436,7 +461,6 @@ main {
     font-size: clamp(25px, 3vw, 36px);
 
     line-height: 1.15;
-
     letter-spacing: -0.04em;
 
     color: #ddd;
@@ -446,7 +470,6 @@ main {
     max-width: 500px;
 
     color: #858585;
-
     font-size: 15px;
 }
 
@@ -463,7 +486,6 @@ main {
     position: relative;
 
     margin-bottom: 18px;
-
     padding: 30px;
 
     background:
@@ -474,7 +496,6 @@ main {
         );
 
     border: 1px solid rgba(255, 255, 255, 0.09);
-
     border-radius: 20px;
 
     backdrop-filter: blur(15px);
@@ -482,21 +503,14 @@ main {
 
     transition:
         transform 220ms ease,
-        border-color 220ms ease,
-        background 220ms ease;
+        border-color 220ms ease;
 }
 
 .project-card:hover {
     transform: translateY(-4px);
 
-    border-color: rgba(255, 255, 255, 0.17);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(255, 255, 255, 0.08),
-            rgba(255, 255, 255, 0.035)
-        );
+    border-color:
+        rgba(255, 255, 255, 0.17);
 }
 
 .project-card.featured {
@@ -505,6 +519,7 @@ main {
 
 .project-top {
     display: flex;
+
     justify-content: space-between;
     align-items: flex-start;
 
@@ -519,7 +534,6 @@ main {
     color: #666;
 
     font-family: monospace;
-
     font-size: 10px;
 
     letter-spacing: 0.1em;
@@ -529,13 +543,11 @@ main {
     font-size: 28px;
 
     letter-spacing: -0.04em;
-
     font-weight: 500;
 }
 
 .project-arrow {
     color: #777;
-
     font-size: 22px;
 }
 
@@ -545,7 +557,6 @@ main {
     margin-bottom: 30px;
 
     color: #999;
-
     font-size: 15px;
 }
 
@@ -559,19 +570,20 @@ main {
 
     padding: 24px 0;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    border-top:
+        1px solid rgba(255, 255, 255, 0.07);
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.07);
 }
 
 .project-story span {
     color: #666;
 
     font-family: monospace;
-
     font-size: 10px;
 
     text-transform: uppercase;
-
     letter-spacing: 0.08em;
 }
 
@@ -579,7 +591,6 @@ main {
     margin-top: 8px;
 
     color: #888;
-
     font-size: 13px;
 }
 
@@ -597,7 +608,6 @@ main {
 .tags {
     display: flex;
     flex-wrap: wrap;
-
     gap: 7px;
 }
 
@@ -608,26 +618,22 @@ main {
 
     background: rgba(255, 255, 255, 0.045);
 
-    border: 1px solid rgba(255, 255, 255, 0.07);
+    border:
+        1px solid rgba(255, 255, 255, 0.07);
 
     border-radius: 7px;
 
     font-family: monospace;
-
     font-size: 10px;
 }
 
 .project-links {
     display: flex;
-
     gap: 15px;
-
-    flex-shrink: 0;
 }
 
 .project-links a {
     color: #bbb;
-
     font-size: 12px;
 
     transition: color 180ms ease;
@@ -639,7 +645,6 @@ main {
 
 .project-links .disabled {
     color: #555;
-
     cursor: default;
 }
 
@@ -649,7 +654,8 @@ main {
 ========================================= */
 
 .skills {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top:
+        1px solid rgba(255, 255, 255, 0.08);
 }
 
 .skill-group {
@@ -661,27 +667,25 @@ main {
 
     padding: 22px 0;
 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.07);
 }
 
 .skill-label {
     color: #555;
 
     font-family: monospace;
-
     font-size: 11px;
 }
 
 .skill-list {
     display: flex;
     flex-wrap: wrap;
-
     gap: 8px;
 }
 
 .skill-list span {
     color: #aaa;
-
     font-size: 14px;
 }
 
@@ -699,14 +703,14 @@ main {
 
     padding: 35px 0;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top:
+        1px solid rgba(255, 255, 255, 0.08);
 }
 
 .currently-main {
     display: flex;
 
     align-items: flex-start;
-
     gap: 12px;
 }
 
@@ -732,7 +736,6 @@ main {
     font-size: clamp(22px, 3vw, 32px);
 
     line-height: 1.2;
-
     letter-spacing: -0.04em;
 
     color: #ddd;
@@ -741,16 +744,12 @@ main {
 .currently-list {
     display: flex;
     flex-direction: column;
-
     gap: 11px;
 }
 
 .currently-list span {
     color: #777;
-
     font-size: 14px;
-
-    transition: color 180ms ease;
 }
 
 .currently-list span:hover {
@@ -772,15 +771,17 @@ main {
 
     padding: 25px 0;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-top:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.08);
 }
 
 .education-label {
     color: #666;
 
     font-family: monospace;
-
     font-size: 10px;
 }
 
@@ -788,7 +789,6 @@ main {
     margin-top: 7px;
 
     font-size: 19px;
-
     font-weight: 500;
 
     letter-spacing: -0.02em;
@@ -798,13 +798,11 @@ main {
     margin-top: 3px;
 
     color: #777;
-
     font-size: 13px;
 }
 
 .education-location {
     color: #666;
-
     font-size: 12px;
 }
 
@@ -818,7 +816,8 @@ main {
 
     text-align: center;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-top:
+        1px solid rgba(255, 255, 255, 0.07);
 }
 
 .contact h2 {
@@ -829,7 +828,6 @@ main {
     font-size: clamp(50px, 9vw, 100px);
 
     line-height: 0.95;
-
     letter-spacing: -0.07em;
 }
 
@@ -843,14 +841,12 @@ main {
     margin: 0 auto 30px;
 
     color: #777;
-
     font-size: 14px;
 }
 
 .contact-links {
     display: flex;
     justify-content: center;
-
     gap: 10px;
 }
 
@@ -861,20 +857,16 @@ main {
 
     background: rgba(255, 255, 255, 0.04);
 
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
 
     border-radius: 10px;
 
     font-size: 13px;
-
-    transition:
-        color 180ms ease,
-        background 180ms ease;
 }
 
 .contact-link:hover {
     color: white;
-
     background: rgba(255, 255, 255, 0.08);
 }
 
@@ -898,13 +890,11 @@ main {
 
     color: #444;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-top:
+        1px solid rgba(255, 255, 255, 0.07);
 
     font-family: monospace;
-
     font-size: 10px;
-
-    letter-spacing: 0.04em;
 }
 
 
@@ -926,7 +916,6 @@ main {
 
 .visible {
     opacity: 1;
-
     transform: translateY(0);
 }
 
@@ -937,7 +926,7 @@ main {
 
 
 /* =========================================
-   RESPONSIVE
+   MOBILE
 ========================================= */
 
 @media (max-width: 700px) {
@@ -946,12 +935,68 @@ main {
         width: calc(100% - 20px);
 
         top: 10px;
-
         margin-top: 10px;
     }
 
     .nav-links {
-        display: none;
+        position: absolute;
+
+        top: calc(100% + 8px);
+        left: 0;
+
+        width: 100%;
+
+        max-width: none;
+
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+
+        background: rgba(20, 20, 20, 0.9);
+
+        border:
+            1px solid rgba(255, 255, 255, 0.09);
+
+        border-radius: 14px;
+
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+
+        opacity: 0;
+        visibility: hidden;
+
+        transform: translateY(-5px);
+
+        transition:
+            opacity 180ms ease,
+            visibility 180ms ease,
+            transform 180ms ease;
+    }
+
+    .nav-links.open {
+        max-width: none;
+
+        padding: 7px;
+
+        opacity: 1;
+        visibility: visible;
+
+        transform: translateY(0);
+    }
+
+    .nav-links a {
+        padding: 11px 12px;
+
+        border-radius: 8px;
+    }
+
+    .nav-links a:hover {
+        background:
+            rgba(255, 255, 255, 0.06);
     }
 
     .hero {
@@ -962,7 +1007,8 @@ main {
     }
 
     .hero h1 {
-        font-size: clamp(50px, 17vw, 80px);
+        font-size:
+            clamp(50px, 17vw, 80px);
     }
 
     .hero-description {
@@ -975,7 +1021,6 @@ main {
 
     .about-grid {
         grid-template-columns: 1fr;
-
         gap: 35px;
     }
 
@@ -986,33 +1031,27 @@ main {
 
     .project-story {
         grid-template-columns: 1fr;
-
         gap: 20px;
     }
 
     .project-footer {
         align-items: flex-start;
-
         flex-direction: column;
     }
 
     .skill-group {
         grid-template-columns: 1fr;
-
         gap: 12px;
     }
 
     .currently {
         grid-template-columns: 1fr;
-
         gap: 35px;
     }
 
     .education-card {
         align-items: flex-start;
-
         flex-direction: column;
-
         gap: 12px;
     }
 
@@ -1021,17 +1060,18 @@ main {
     }
 
     .contact h2 {
-        font-size: clamp(50px, 17vw, 85px);
+        font-size:
+            clamp(50px, 17vw, 85px);
     }
 
     .footer {
         width: calc(100% - 40px);
 
         flex-direction: column;
-
         gap: 8px;
     }
 }
+
 
 @media (prefers-reduced-motion: reduce) {
 
