@@ -18,7 +18,7 @@ body {
     background: #080808;
     color: #f2f2f2;
 
-    font-family: sans-serif;
+    font-family: serif !important;
 
     line-height: 1.6;
     overflow-x: hidden;
@@ -260,7 +260,7 @@ main {
 
 .section-number {
     color: #666;
-    font-family: monospace;
+    font-family: serif;
     font-size: 12px;
 }
 
@@ -343,7 +343,7 @@ main {
 
     color: #777;
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 11px;
 
     letter-spacing: 0.14em;
@@ -526,7 +526,7 @@ main {
 
     color: #666;
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 10px;
 
     letter-spacing: 0.1em;
@@ -573,7 +573,7 @@ main {
 .project-story span {
     color: #666;
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 10px;
 
     text-transform: uppercase;
@@ -616,7 +616,7 @@ main {
 
     border-radius: 7px;
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 10px;
 }
 
@@ -667,7 +667,7 @@ main {
 .skill-label {
     color: #555;
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 11px;
 }
 
@@ -774,7 +774,7 @@ main {
 .education-label {
     color: #666;
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 10px;
 }
 
@@ -886,7 +886,7 @@ main {
     border-top:
         1px solid rgba(255, 255, 255, 0.07);
 
-    font-family: monospace;
+    font-family: serif;
     font-size: 10px;
 }
 
